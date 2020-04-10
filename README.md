@@ -1,4 +1,4 @@
-# [NumberlogyFree.com](https://christinereina.github.io/epicodus-numberology/)
+# [Pizza Parlor](https://github.com/christinereina/epicodus-pizza.git)
 
 #### Epicodus Week Four Object Oriented JavaScript| Pizza Parlor, 04.10.2020
 
@@ -11,6 +11,14 @@
 **[View Live Preview](https://christinereina.github.io/epicodus-numberology/)**
 
 ## Description
+
+## Specifications
+
+| Behavior       | Input         | Output  |
+| ------------- |:-------------:| -----:|
+| Customer chooses pizza size | Customer clicks "Large" | Large is $10|
+| Customer chooses pizza vegetable toppings | Customer clicks "spinach" | each vegetable topping is $0.50|
+| Customer is finished with order| Customer clicks "submit" | Pizza size cost + each topping is added up & final cost is displayed, ex. large, spinach = $10.50|
 
 
 ## Setup/Installation Requirements
