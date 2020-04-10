@@ -12,7 +12,70 @@
     <title>Bon Bom Piza | The World's Best Vegan Pizza</title>
   </head>
   <body>
-    <h1>- Delivery Specials -</h1>
-    
+    <div class="container">
+    <div class="col-md-12">
+      <h1>PLANT BASED.</h1>
+    </div>
+    <!-- pizza order form  -->
+    <form id="pizza">
+      <div class="col-md-4">
+       <h2>Choose Your Crust</h2>
+        <div class="form-group">
+          <input type="radio" name="crust" value="glutenFree"> Gluten-Free Crust<br>
+          <input type="radio" name="crust" value="cauliflower">Cauliflower<br>
+        </div>
+      </div>
+      <div class="col-md-4">
+       <h2>Select a size</h2>
+        <div class="form-group">
+          <input type="radio" name="size" value="sm"> Small 10"<br>
+          <input type="radio" name="size" value="lg"> Large 16"<br>
+        </div>
+      </div>
+      <div class="col-md-4">
+       <h2>Choose a sauce</h2>
+          <div class="form-group">
+            <input type="radio" name="sauce" value="red">Classic Marinara 
+            <input type="radio" name="sauce" value="white">White Garlic Sauce<br>
+            <input type="radio" name="sauce" value="pesto">Pesto<br>
+          </div>
+      </div>
+      <div class="col-md-4">
+       <h2>Select a cheeze</h2>
+        <div class="form-group">
+          <input type="radio" name="cheeze" value="cashew">Cashew Ricotta<br>
+          <input type="radio" name="cheeze" value="tofu">Tofu Feta<br>
+          <input type="radio" name="cheeze" value="mozzarella"> Good Planet® Mozzarella<br>
+        </div>
+      </div>
+      <div class="col-md-4">
+       <h2>Choose your toppings</h2>
+          <div class="form-group">
+            <input type="checkbox" name="topping" value="artichokes">Artichokes <br>
+            <input type="checkbox" name="topping" value="olives">Black Olives<br>
+            <input type="checkbox" name="topping" value="Basil">Fresh Basil<br>
+            <input type="checkbox" name="topping" value="tomatoes">Fresh Tomatoes<br>
+            <input type="checkbox" name="topping" value="olives">Green Olives<br>
+            <input type="checkbox" name="topping" value="peppers">Green Peppers<br>
+            <input type="checkbox" name="topping" value="onions">Grilled Onions<br>
+            <input type="checkbox" name="topping" value=" jalapeno">Jalapeno Peppers<br>
+            <input type="checkbox" name="topping" value="mushrooms">Mushrooms<br>
+            <input type="checkbox" name="topping" value="pepperoncini">Pepperoncini Peppers<br>
+            <input type="checkbox" name="topping" value="pineapple">Pineapple<br>
+            <input type="checkbox" name="topping" value="onions">Red Onions<br>
+            <input type="checkbox" name="topping" value="garlic">Roasted Garlic <br>
+            <input type="checkbox" name="topping" value="spinach">Spinach<br>
+            <input type="checkbox" name="topping" value="sundried">Sundried Tomatoes<br>
+          </div>
+      </div>
+      <div class="col-md-12">
+        <button class="btn btn-success" type="submit">Place Order</button>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+    <div id="output"></div>
+  </div>
   </body>
   </html>

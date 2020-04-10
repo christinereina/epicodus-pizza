@@ -6,10 +6,23 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
 }
 
 h1 {
   font-family: 'Knewave', cursive;
   font-size: 70px;
   color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Knewave', cursive;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+#output {
+  display: none;
 }
