@@ -12,7 +12,7 @@
 
 ## Description
 
-This is my fictional pizza site where the user can create their own pizza! This shows my knowledge of protypes and constructors in js. 
+This is my fictional pizza site where the user can create their own vegan pizza! This order form shows my knowledge of protypes and constructors in javascript.
 
 ## Specifications
 
@@ -20,7 +20,7 @@ This is my fictional pizza site where the user can create their own pizza! This 
 | ------------- |:-------------:| -----:|
 | Customer chooses size | Customer clicks "**Large**" | Large is $16|
 | Customer chooses vegetable toppings | Customer clicks "**Spinach**" | each topping is $0.50|
-| Customer chooses "meat" toppings | Customer clicks "*Soy Chorizo***" | each topping is $1.00|
+| Customer chooses "meat" toppings | Customer clicks "**Soy Chorizo**" | each topping is $1.00|
 | Customer is finished with order| Customer clicks "**Submit**" | size + each topping cost is added up & final cost is displayed, ex. Large, Soy Chorizo, Spinach = **$17.50**|
 
 
