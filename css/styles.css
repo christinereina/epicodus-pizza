@@ -5,4 +5,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Knewave', cursive;
+  font-size: 70px;
+  color: white;
 }

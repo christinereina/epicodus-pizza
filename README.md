@@ -1,4 +1,4 @@
-# [ 🍕 Pizza Parlor 🍕](https://christinereina.github.io/epicodus-pizza/)
+# [ 🍕 Bon Nom Pizza 🍕](https://christinereina.github.io/epicodus-pizza/)
 
 #### Epicodus Week Four Object Oriented JavaScript | Pizza Parlor, 04.10.2020
 
