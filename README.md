@@ -18,7 +18,7 @@
 | ------------- |:-------------:| -----:|
 | Customer chooses pizza size | Customer clicks "Large" | Large is $10|
 | Customer chooses pizza vegetable toppings | Customer clicks "spinach" | each vegetable topping is $0.50|
-| Customer is finished with order| Customer clicks "submit" | Pizza size cost + each topping is added up & final cost is displayed, ex. large, spinach = $10.50|
+| Customer is finished with order| Customer clicks "submit" | Pizza size + each topping cost is added up & final cost is displayed, ex. large, spinach = $10.50|
 
 
 ## Setup/Installation Requirements
