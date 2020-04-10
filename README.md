@@ -1,4 +1,4 @@
-# [Pizza Parlor](https://github.com/christinereina/epicodus-pizza.git)
+# [Pizza Parlor](https://christinereina.github.io/epicodus-pizza/)
 
 #### Epicodus Week Four Object Oriented JavaScript| Pizza Parlor, 04.10.2020
 
@@ -6,11 +6,13 @@
 
 ## Preview
 
-![Landing Page Preview](./img/livepreview.png)
+<!-- ![Landing Page Preview](./img/livepreview.png) -->
 
-**[View Live Preview](https://christinereina.github.io/epicodus-numberology/)**
+**[View Live Preview](https://christinereina.github.io/epicodus-pizza/)**
 
 ## Description
+
+This is my fictional pizza site where the user can create their own pizza! This shows my knowledge of protypes and constructors in js. 
 
 ## Specifications
 
@@ -30,7 +32,7 @@ Clone the project's github repository from your computer's Terminal (make sure y
 
 Open folder and drag/drop the index.html file into your preferred web browser
 
-Alternatively, you can also view the webpage by clicking [here](https://github.com/christinereina/epicodus-pizza)
+Alternatively, you can also view the webpage by clicking [here](https://christinereina.github.io/epicodus-pizza/)
 
 Lastly, enjoy my site!
 
