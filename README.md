@@ -1,6 +1,6 @@
-# [Pizza Parlor](https://christinereina.github.io/epicodus-pizza/)
+# [ 🍕 Pizza Parlor 🍕](https://christinereina.github.io/epicodus-pizza/)
 
-#### Epicodus Week Four Object Oriented JavaScript| Pizza Parlor, 04.10.2020
+#### Epicodus Week Four Object Oriented JavaScript | Pizza Parlor, 04.10.2020
 
 #### By _**Christine Augustine**_
 
@@ -18,9 +18,9 @@ This is my fictional pizza site where the user can create their own pizza! This 
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
-| Customer chooses pizza size | Customer clicks "Large" | Large is $10|
-| Customer chooses pizza vegetable toppings | Customer clicks "spinach" | each vegetable topping is $0.50|
-| Customer is finished with order| Customer clicks "submit" | Pizza size + each topping cost is added up & final cost is displayed, ex. large, spinach = $10.50|
+| Customer chooses pizza size | Customer clicks "**Large**" | Large is $10|
+| Customer chooses pizza vegetable toppings | Customer clicks "**Spinach**" | each vegetable topping is $0.50|
+| Customer is finished with order| Customer clicks "**Submit**" | Pizza size + each topping cost is added up & final cost is displayed, ex. large, spinach = $10.50|
 
 
 ## Setup/Installation Requirements

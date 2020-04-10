@@ -1,0 +1,8 @@
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: 100vmax;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
