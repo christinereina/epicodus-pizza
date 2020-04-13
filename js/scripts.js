@@ -1,10 +1,8 @@
 // business logic
 
-function Pizza (size, crust, sauce, cheeze, veg, meat) {
+function Pizza (size, crust, veg, meat) {
   this.size = size;
   this.crust = crust;
-  this.sauce = sauce;
-  this.cheeze = cheeze;
   this.veg = veg;
   this.meat = meat;
   this.price = 0;
@@ -25,7 +23,7 @@ Pizza.prototype.calculateOrder = function () {
   };
 
 
-// user logics
+// user logic
 
 var pizza = new Pizza();
 
@@ -34,11 +32,9 @@ $(document).ready(function() {
     event.preventDefault();
     var size = $("input[name=size]:checked").val();
     var crust = $("input[name=crust]:checked").val();
-    var sauce = $("input[name=sauce]:checked").val();
-    var cheeze = $("input[name =cheeze]:checked").val();
     var veg = $("input[name=veg]:checked").val();
     var meat = $("input[name=meat]:checked").val();
-    var newPizza = new Pizza (size, crust, sauce,cheeze, veg, meat);
+    var newPizza = new Pizza (size, crust, veg, meat);
     newPizza.calculateOrder();
     $('div#output').text(`Order Total: ${newPizza.price}`)
     console.log(newPizza.price)
