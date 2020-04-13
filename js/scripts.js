@@ -42,6 +42,5 @@ $(document).ready(function() {
     newPizza.calculateOrder();
     $('div#output').text(`Order Total: ${newPizza.price}`)
     console.log(newPizza.price)
-
   });
 });
