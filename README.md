@@ -1,6 +1,6 @@
 # [ 🍕 Bon Nom Pizza 🍕](https://christinereina.github.io/epicodus-pizza/)
 
-#### Epicodus Week Four Object Oriented JavaScript | Pizza Parlor, 04.10.2020
+#### Epicodus Week Four | Independent Project - Object Oriented JavaScript, 04.10.2020
 
 #### By _**Christine Augustine**_
 
@@ -19,9 +19,9 @@ This is my fictional pizza site where the user can create their own vegan pizza!
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
 | Customer chooses size | Customer clicks "**Large**" | Large is $16|
-| Customer chooses vegetable toppings | Customer clicks "**Spinach**" | each topping is $0.50|
-| Customer chooses "meat" toppings | Customer clicks "**Soy Chorizo**" | each topping is $1.00|
-| Customer is finished with order| Customer clicks "**Submit**" | size + each topping cost is added up & final cost is displayed, ex. Large, Soy Chorizo, Spinach = **$17.50**|
+| Customer chooses vegetable toppings | Customer clicks "**Spinach**" | each veg topping is $0.50|
+| Customer chooses "meat" toppings | Customer clicks "**Soy Chorizo**" | each  "meat" topping is $1.00|
+| Customer is finished with order| Customer clicks "**Submit**" | size + each topping cost is added up & final cost is displayed, ex. Large, Soy Chorizo, Spinach = **Your Total Order: $17.50**|
 
 
 ## Setup/Installation Requirements
