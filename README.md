@@ -39,7 +39,7 @@ Lastly, enjoy my site!
 
 ## Known Bugs
 
-n/a
+As of 4/13 the functionality for the veg and meat toppings is not being calculated. 
 
 ## Support and contact details
 
