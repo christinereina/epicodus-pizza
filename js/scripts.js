@@ -15,11 +15,17 @@ Pizza.prototype.calculateOrder = function () {
     this.price = 10;
 } else {
     this.price= 16;
+};
+  if (this.crust === "glutenFree") {
+    this.price += 1.50;
+  } else if (this.crust === "cauliflower") {
+    this.price += 2;
   }
-  return this.price
-}
+  return this.price;
+  };
 
-// user logic
+
+// user logics
 
 var pizza = new Pizza();
 
