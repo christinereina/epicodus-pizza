@@ -10,8 +10,18 @@ function Pizza (size, crust, sauce, cheeze, veg, meat) {
   this.price = 0;
 }
 
+Pizza.prototype.calculateOrder = function () {
+  if (this.size === "sm") {
+    this.price = 10;
+} else {
+    this.price= 16;
+  }
+  return this.price
+}
 
 // user logic
+
+var pizza = new Pizza();
 
 $(document).ready(function() {
   $("#pizza").submit(function(event) {
@@ -22,6 +32,10 @@ $(document).ready(function() {
     var cheeze = $("input[name =cheeze]:checked").val();
     var veg = $("input[name=veg]:checked").val();
     var meat = $("input[name=meat]:checked").val();
-    console.log(crust);
+    var newPizza = new Pizza (size, crust, sauce,cheeze, veg, meat);
+    newPizza.calculateOrder();
+    $('div#output').text(`Order Total: ${newPizza.price}`)
+    console.log(newPizza.price)
+
   });
 });
