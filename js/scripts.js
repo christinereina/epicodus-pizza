@@ -1,9 +1,9 @@
+  
 // business logic
 
-function Pizza (size, crust, veg, meat) {
+function Pizza (size, crust, meat) {
   this.size = size;
   this.crust = crust;
-  this.veg = veg;
   this.meat = meat;
   this.price = 0;
 }
@@ -22,11 +22,9 @@ Pizza.prototype.calculateOrder = function () {
   return this.price;
   };
 
-  Pizza.prototype.addToppins = function () {
+  Pizza.prototype.addToppings = function () {
     if (this.meat === "1") {
       this.price += 1.50;
-  } else if (this.veg === "vegtop") {
-      this.price += 0.50;
   }
   return this.price;
   };
@@ -35,17 +33,15 @@ Pizza.prototype.calculateOrder = function () {
 
 // user logic
 
-var pizza = new Pizza();
-
 $(document).ready(function() {
   $("#pizza").submit(function(event) {
     event.preventDefault();
     var size = $("input[name=size]:checked").val();
     var crust = $("input[name=crust]:checked").val();
-    var veg = $("input[name=veg]:checked").val();
     var meat = $("input[name=meat]:checked").val();
-    var newPizza = new Pizza (size, crust, veg, meat);
+    var newPizza = new Pizza (size, crust, meat);
     newPizza.calculateOrder();
+    newPizza.addToppings();
     $('div#output').text(`Order Total: ${newPizza.price}`)
     console.log(newPizza.price)
   });
