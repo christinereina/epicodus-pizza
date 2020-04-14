@@ -23,13 +23,12 @@ Pizza.prototype.calculateOrder = function () {
   };
 
   Pizza.prototype.addToppings = function () {
+    // for (var counter = 0; counter < userInput; counter +)
     if (this.meat === "1") {
       this.price += 1.50;
   }
   return this.price;
   };
-
-  console.log(this.price);
 
 // user logic
 
