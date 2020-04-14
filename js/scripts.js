@@ -22,6 +22,16 @@ Pizza.prototype.calculateOrder = function () {
   return this.price;
   };
 
+  Pizza.prototype.addToppins = function () {
+    if (this.meat === "1") {
+      this.price += 1.50;
+  } else if (this.veg === "vegtop") {
+      this.price += 0.50;
+  }
+  return this.price;
+  };
+
+  console.log(this.price);
 
 // user logic
 
